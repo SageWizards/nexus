@@ -1,8 +1,8 @@
 # 🌐 Nexus
-Nexus is an open source protocol for AI-to-AI communication. The increasing complexity and interconnectivity of AI systems highlights the need for a standardized framework for AI-to-AI communication. Nexus AI provides such a framework, defining a set of rules and procedures that AI systems must follow when communicating with each other. This ensures that AI systems can exchange information in a secure, reliable, and efficient manner, regardless of their specific implementation details.
+Nexus is an open-source protocol designed to facilitate communication between AI systems in a secure, reliable, and efficient manner. As AI systems become more complex and interconnected, a standardized framework for AI-to-AI communication is essential. Nexus provides such a framework, defining a set of rules and procedures that AI systems must follow when communicating with each other. By adhering to these rules, AI systems can exchange information seamlessly and effectively, regardless of their specific implementation details.
 
 ## Purpose of Nexus
-The purpose of Nexus is to provide a standardized framework for AI-to-AI communication. The protocol defines a set of rules and procedures that AI systems must follow when communicating with each other. By adhering to these rules, AI systems can exchange information in a way that is secure, reliable, and efficient.
+The purpose of Nexus is to provide a standardized framework for AI-to-AI communication that is secure, reliable, and efficient. The protocol defines a set of rules and procedures that AI systems must follow when communicating with each other. By using Nexus, AI systems can communicate seamlessly, enabling more complex and sophisticated applications.
 
 ## Key Features of Nexus
 - **Message format:** Nexus defines a standard message format that AI systems must use when communicating with each other. The format includes fields for the sender and receiver of the message, the type of message being sent, and the data being transmitted.
@@ -12,6 +12,8 @@ The purpose of Nexus is to provide a standardized framework for AI-to-AI communi
 - **Reliability:** Nexus includes mechanisms to ensure the reliability of AI-to-AI communication. This includes error detection and correction, message acknowledgements, and retransmission of lost or corrupted messages.
 
 - **Scalability:** Nexus is designed to be scalable, allowing AI systems to communicate with each other regardless of their size or complexity. This includes support for multicast and broadcast communication, as well as mechanisms for load balancing and resource allocation.
+
+- **Cut costs:** Nexus is designed to tell explicitly if a message should, or not, to be processed by a LLM
 
 ## Benefits of Nexus
 - **Interoperability:** By adhering to a standardized protocol like Nexus, AI systems can communicate with each other more easily, regardless of the specific implementation details of each system.
@@ -26,15 +28,15 @@ The purpose of Nexus is to provide a standardized framework for AI-to-AI communi
 
 ## RFC
 
-Sage Tech Labs Inc.
-Request for Comments: 0001
-Category: Experimental
-Title: NEXUS: A Bot-to-Bot Communication Protocol Minimizing the Use of Large Language Models
-Date: April 04 2023
+  Sage Tech Labs Inc.
+  Request for Comments: 0001
+  Category: Experimental
+  Title: NEXUS: A Bot-to-Bot Communication Protocol Minimizing the Use of Large Language Models
+  Date: April 04 2023
 
 1. Introduction
 
-NEXUS is an experimental communication protocol designed for bot-to-bot communication while minimizing the dependency on large language models (LLMs) whenever possible. It incorporates message validation, caching mechanisms, and OpenAPI-based communication to reduce the need for intensive LLM usage.
+  NEXUS is an experimental communication protocol designed for bot-to-bot communication while minimizing the dependency on large language models (LLMs) whenever possible. It incorporates message validation, caching mechanisms, and OpenAPI-based communication to reduce the need for intensive LLM usage.
 
 2. Terminology
 
