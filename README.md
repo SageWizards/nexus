@@ -2,7 +2,11 @@
 Nexus is an open-source protocol designed to facilitate communication between AI systems in a secure, reliable, and efficient manner. As AI systems become more complex and interconnected, a standardized framework for AI-to-AI communication is essential. Nexus provides such a framework, defining a set of rules and procedures that AI systems must follow when communicating with each other. By adhering to these rules, AI systems can exchange information seamlessly and effectively, regardless of their specific implementation details.
 
 ## Purpose of Nexus
-The purpose of Nexus is to provide a standardized framework for AI-to-AI communication that is secure, reliable, and efficient. The protocol defines a set of rules and procedures that AI systems must follow when communicating with each other. By using Nexus, AI systems can communicate seamlessly, enabling more complex and sophisticated applications.
+The purpose of Nexus is to provide a standardized framework for AI-to-AI communication. The protocol defines a set of rules and procedures that AI systems must follow when communicating with each other. By adhering to these rules, AI systems can exchange information in a way that is secure, reliable, and efficient.
+
+Key Features of Nexus include a standard message format, measures to ensure security and reliability, and scalability to accommodate AI systems of varying sizes, complexity, and implementation details. This includes support for multicast and broadcast communication.
+
+By implementing a standardized protocol like Nexus, AI systems in various industries and applications can communicate with each other more easily and effectively, without requiring significant implementation efforts. This can help to unlock the full potential of AI and enable it to solve complex problems and improve efficiency in various fields.
 
 ## Key Features of Nexus
 - **Message format:** Nexus defines a standard message format that AI systems must use when communicating with each other. The format includes fields for the sender and receiver of the message, the type of message being sent, and the data being transmitted.
